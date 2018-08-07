@@ -1,9 +1,8 @@
 # wdio-browserstack-reporter
-===================
 
-> A WebdriverIO plugin which enables BrowserStack reports on CI servers
+A WebdriverIO plugin which enables BrowserStack reports on CI servers
 
-![Browserstack reports on Jenkins](jenkins_report.png)
+![Browserstack reports on Jenkins](screenshots/jenkins_report.png)
 
 ## Installation
 
@@ -51,7 +50,7 @@ You will have to configure your Jenkins CI server to embed all the BrowserStack 
   4. In the Additional test report features section, add Embed BrowserStack Report.
 
 This is how your configuration should look like
-![Jenkins Setup](jenkins_setup.png)
+![Jenkins Setup](screenshots/jenkins_setup.png)
 
 ## Related links
 
