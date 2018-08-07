@@ -3,6 +3,8 @@ WDIO BrowserStack Reporter
 
 > A WebdriverIO plugin which enables BrowserStack reports on CI servers
 
+![Browserstack reports on Jenkins](jenkins_report.png)
+
 ## Installation
 
 Add `wdio-browserstack-reporter` as a dependency in your `package.json`.
@@ -14,7 +16,6 @@ Add `wdio-browserstack-reporter` as a dependency in your `package.json`.
   }
 }
 ```
-or
 
 ## Configuration
 
@@ -55,7 +56,11 @@ This is how your configuration should look like
 ## Related links
 
 [Guide to running Selenium Webdriver tests with NodeJS on BrowserStack](https://www.browserstack.com/automate/node)
+
 [Browserstack Jenkins page](https://www.browserstack.com/automate/jenkins)
+
 [Webdriverio](http://webdriver.io).
+
 [Webdriverio Jenkins Integration](http://webdriver.io/guide/testrunner/jenkins.html)
+
 [Webdriverio Junit Reporter](https://github.com/webdriverio-boneyard/wdio-junit-reporter)
