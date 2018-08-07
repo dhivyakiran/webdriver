@@ -1,4 +1,4 @@
-WDIO BrowserStack Reporter
+# wdio-browserstack-reporter
 ===================
 
 > A WebdriverIO plugin which enables BrowserStack reports on CI servers
