@@ -27,12 +27,6 @@ class BrowserStackReporter extends WdioReporter {
     this.write(filename, xml);
   }
 
-  onSingleFileOutput() {
-    const xml = this.prepareXml(this.runnerStat);
-    let filename = `REPORT-browserstack.all.xml`;
-    this.write(filename, xml);
-  }
-
   prepareName(name = "Skipped test") {
     return name
       .split(/[^a-zA-Z0-9]+/)
