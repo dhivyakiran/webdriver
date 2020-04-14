@@ -100,7 +100,7 @@ module.exports = {
     reporters: ['browserstack'],
     reporterOptions: {
         browserstack: {
-            outputDir: './'
+            outputDir: 'src/'
         }
     },
     // ...
