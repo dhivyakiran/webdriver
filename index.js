@@ -93,4 +93,15 @@ var BrowserStackReporter = function(baseReporter, config, options = {}) {
 
 util.inherits(BrowserStackReporter, events.EventEmitter);
 
-module.exports = BrowserStackReporter
+//module.exports = BrowserStackReporter
+// wdio.conf.js
+module.exports = {
+    // ...
+    reporters: ['browserstack'],
+    reporterOptions: {
+        browserstack: {
+            outputDir: './'
+        }
+    },
+    // ...
+};
